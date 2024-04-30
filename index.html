@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Jean Durán Villanueva - Portfolio</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">Jean Durán</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="assets/img/cv_photo.jpg" alt="" />
+        </div>
+        <h1>Jean Durán Villanueva</h1>
+        <h2>Software Developer</h2>
+        <div class="redes">
+          <a target="_blank" href="https://wa.me/525639531014"><i class="fa-brands fa-whatsapp"></i></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/jean-duran-v/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a target="_blank" href="https://github.com/duranueva"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+            <a target="_blank" href="mailto:jean.duran.v@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          Hola!, mi nombre es <span>Jean Durán Viilanueva</span>. Soy egresado de la carrera Licenciatura en 
+          Ciencias de la Computación, de la Facultad de Ciencias, UNAM. Mi formación académica, me ha formado 
+          como un profesional con conocimientos teóricos sólidos en la disciplina de Computación y con habilidades 
+          de programación; Me ha formado con la capacidad de desarrollar soluciones computacionales de frontera. 
+          Además de los fundamentos que me permiten adaptarme a tecnologías emergentes e ideas nuevas, y la preparación 
+          para analizar, diseñar y construir sistemas de software así como en el desarrollo de aplicaciones de la 
+          computación para otras ciencias y disciplinas.
+        </p>
+        <p>
+          Soy proactivo, autodidacta y responsable. Me desenvuelvo con facilidad en las tareas de equipo, pero no me 
+          disgustan las actividades individuales. Aprendo rápido y de forma sencilla. Puedo trabajar bajo presión sin 
+          problemas. Continuamente, busco optimizar mis desarrollos mediante la autocritica y la investigación autónoma
+          así como a través de plataformas de enseñanza internacionalmente reconocidas.
+        </p>
+
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Celular</strong>
+                +52 56 3953 1014
+              </li>
+              <li>
+                <strong>Email</strong>
+                jean.duran.v@gmail.com
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                Coyoacán, Ciudad de México, México.
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>Software Developer</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Main Skills</h2>
+        <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ReacJs</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Boostrap</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+              <span>Comunicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Trabajo en Equipo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creatividad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+
+        <h2>Curriculum</h2>
+
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Education</h3>
+            <div class="item izq">
+              <h4>Technician specialized in Computation</h4>
+              <span class="casa">Escuela Nacional Preparatoria no. 1, UNAM</span>
+              <span class="fecha">2017 - 2018</span>
+              <p>
+                The technical option that I chose trained me as a technician capable of solving problems in the 
+                workplace and in my daily work, which involves the efficient management of information as well 
+                as the optimal functioning of computer equipment, through design. , implementation, maintenance 
+                and use of programs, as well as the provision of minor technical support.
+                <!--
+                  La opción tecnica que elegí me formó como un técnico capaz de resolver problemas en el campo 
+                  laboral y en su quehacer cotidiano,   en el que se involucre el manejo eficiente de la información 
+                  al igual que el funcionamiento óptimo del equipo de cómputo, a través del diseño, implementación, 
+                  mantenimiento y uso de programas, así como del suministro de soporte técnico menor.
+                -->
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Bachelor in Computer Science</h4>
+              <span class="casa">Universidad Nacional Autonoma de Mexico (UNAM)</span>
+              <span class="fecha">August 2018 - Dec 2023</span>
+              <p>
+                My academic training has formed me as a professional with solid theoretical 
+                knowledge in the Computer discipline and programming skills; It has trained 
+                me with the ability to develop cutting-edge computational solutions. In 
+                addition to the fundamentals that allow me to adapt to emerging technologies 
+                and new ideas, and the preparation to analyze, design and build software 
+                systems as well as the development of computing applications for other sciences 
+                and disciplines.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Work Expirience</h3>
+            <div class="item der">
+              <h4>Software Developer</h4>
+              <span class="casa">Instituto de Ciencias Aplicadas y Tecnología (ICAT)</span>
+              <span class="fecha">May 2023 - April 2024</span>
+              <p>
+                Project based on Gavilan model, using Python, JavaScript, Django, HTML, CSS, Bootstrap
+                and SQL technologies. Working using Scrum methodology, my role is about to add features to the
+                project, connecting the database data with the logic of the business, and repairing problems that
+                arise after public tests.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+          </div>
+         
+            
+          
+        </div>
+      </div>
+
+      <div class="sobremi">
+        <div class="contenido-seccion">
+          <button>
+            <a target="_blank" href="assets/files/CV_Jean_Duran.pdf">
+              Descargar CV <i class="fa-solid fa-download"></i>
+              <span class="overlay"></span>
+            </a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>PROYECTOS</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="assets/img/p1.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="assets/img/p2.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="assets/img/p3.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="assets/img/p4.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="assets/img/p5.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="assets/img/p6.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a target="_blank" href="https://wa.me/525639531014"><i class="fa-brands fa-whatsapp"></i></i></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/jean-duran-v/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a target="_blank" href="https://github.com/duranueva"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
