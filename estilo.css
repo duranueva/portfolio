@@ -271,24 +271,21 @@ html {
   font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript {
+.skills .skill .skill-a1 {
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s skill-a1 forwards;
 }
-@keyframes javascript {
-  0% {
-    width: 0%;
-  }
+@keyframes skill-a1 {
   100% {
     width: 70%;
   }
 }
 
-.skills .skill .htmlcss {
+.skills .skill .skill-a2 {
   width: 0%;
-  animation: 2s htmlcss forwards;
+  animation: 2s skill-a2 forwards;
 }
-@keyframes htmlcss {
+@keyframes skill-a2 {
   0% {
     width: 0%;
   }
@@ -297,11 +294,11 @@ html {
   }
 }
 
-.skills .skill .photoshop {
+.skills .skill .skill-a3 {
   width: 0%;
-  animation: 2s photoshop forwards;
+  animation: 2s skill-a3 forwards;
 }
-@keyframes photoshop {
+@keyframes skill-a3 {
   0% {
     width: 0%;
   }
@@ -310,11 +307,11 @@ html {
   }
 }
 
-.skills .skill .wordpress {
+.skills .skill .skill-a4 {
   width: 0%;
-  animation: 2s wordpress forwards;
+  animation: 2s skill-a4 forwards;
 }
-@keyframes wordpress {
+@keyframes skill-a4 {
   0% {
     width: 0%;
   }
@@ -323,11 +320,11 @@ html {
   }
 }
 
-.skills .skill .drupal {
+.skills .skill .skill-a5 {
   width: 0%;
-  animation: 2s drupal forwards;
+  animation: 2s skill-a5 forwards;
 }
-@keyframes drupal {
+@keyframes skill-a5 {
   0% {
     width: 0%;
   }
@@ -336,11 +333,11 @@ html {
   }
 }
 
-.skills .skill .comunicacion {
+.skills .skill .skill-b1 {
   width: 0%;
-  animation: 2s comunicacion forwards;
+  animation: 2s skill-b1 forwards;
 }
-@keyframes comunicacion {
+@keyframes skill-b1 {
   0% {
     width: 0%;
   }
@@ -349,11 +346,11 @@ html {
   }
 }
 
-.skills .skill .trabajo {
+.skills .skill .skill-b2 {
   width: 0%;
-  animation: 2s trabajo forwards;
+  animation: 2s skill-b2 forwards;
 }
-@keyframes trabajo {
+@keyframes skill-b2 {
   0% {
     width: 0%;
   }
@@ -362,11 +359,11 @@ html {
   }
 }
 
-.skills .skill .creatividad {
+.skills .skill .skill-b3 {
   width: 0%;
-  animation: 2s creatividad forwards;
+  animation: 2s skill-b3 forwards;
 }
-@keyframes creatividad {
+@keyframes skill-b3 {
   0% {
     width: 0%;
   }
@@ -375,11 +372,11 @@ html {
   }
 }
 
-.skills .skill .dedicacion {
+.skills .skill .skill-b4 {
   width: 0%;
-  animation: 2s dedicacion forwards;
+  animation: 2s skill-b4 forwards;
 }
-@keyframes dedicacion {
+@keyframes skill-b4 {
   0% {
     width: 0%;
   }
@@ -388,11 +385,11 @@ html {
   }
 }
 
-.skills .skill .proyect {
+.skills .skill .skill-b5 {
   width: 0%;
-  animation: 2s proyect forwards;
+  animation: 2s skill-b5 forwards;
 }
-@keyframes proyect {
+@keyframes skill-b5 {
   0% {
     width: 0%;
   }
@@ -526,18 +523,18 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.portfolio .galeria .proyecto {
+.portfolio .galeria .skill-b5o {
   position: relative;
   max-width: 340px;
   height: fit-content;
   margin: 10px;
   cursor: pointer;
 }
-.portfolio .galeria .proyecto img {
+.portfolio .galeria .skill-b5o img {
   width: 100%;
   display: block;
 }
-.portfolio .galeria .proyecto .overlay {
+.portfolio .galeria .skill-b5o .overlay {
   position: absolute;
   top: 0;
   width: 100%;
@@ -552,14 +549,14 @@ html {
   letter-spacing: 3px;
   opacity: 0;
 }
-.portfolio .galeria .proyecto .overlay h3 {
+.portfolio .galeria .skill-b5o .overlay h3 {
   margin-bottom: 20px;
   transition: 1s;
 }
-.portfolio .galeria .proyecto .overlay:hover {
+.portfolio .galeria .skill-b5o .overlay:hover {
   opacity: 1;
 }
-.portfolio .galeria .proyecto .overlay:hover h3 {
+.portfolio .galeria .skill-b5o .overlay:hover h3 {
   margin-bottom: 0px;
 }
 /* SECCION CONTACTO */
@@ -741,10 +738,10 @@ footer .arriba {
     display: block;
     width: 100%;
   }
-  .portfolio .galeria .proyecto {
+  .portfolio .galeria .skill-b5o {
     max-width: 100%;
   }
-  .portfolio .galeria .proyecto img {
+  .portfolio .galeria .skill-b5o img {
     width: 100%;
   }
   .contacto .fila {
